@@ -1,0 +1,8 @@
+[06-Feb-2025 19:03:49 America/Bogota] PHP Warning:  Undefined array key "permiso" in /home4/jorginho/public_html/pradera/Controllers/User.php on line 44
+[06-Feb-2025 19:03:49 America/Bogota] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home4/jorginho/public_html/pradera/Models/User.php:23
+Stack trace:
+#0 /home4/jorginho/public_html/pradera/Controllers/User.php(44): User->insertar('johana zea', 'CEDULA', '1143114229', 'calle 72 # 5 su...', '3012141579', 'johanazea0286@g...', 'vendedora', 'johana', '03ac674216f3e15...', 'user-default.jp...', NULL)
+#1 {main}
+  thrown in /home4/jorginho/public_html/pradera/Models/User.php on line 23
+[07-Feb-2025 20:15:51 America/Bogota] PHP Warning:  Undefined array key "idusuario" in /home4/jorginho/public_html/pradera/Controllers/Buy.php on line 10
+[07-Feb-2025 20:15:52 America/Bogota] PHP Warning:  Undefined array key "idusuario" in /home4/jorginho/public_html/pradera/Controllers/Buy.php on line 10
